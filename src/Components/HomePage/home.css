@@ -1,0 +1,17 @@
+.Homemain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.Title {
+    font-size: 100px;
+    color: aqua;
+    text-align: center;
+    transition: all 0.5s ease-in;
+}
+.Title:hover{
+    color: yellowgreen;
+    cursor: pointer;
+}

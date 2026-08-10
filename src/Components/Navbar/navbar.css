@@ -1,0 +1,29 @@
+.navBar{
+    background-color: rgb(126, 126, 111);
+    display: flex;
+    justify-content: center;
+    padding: 6px;
+    justify-content: space-between;
+}
+.list{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin-top: 18px;
+}
+.navbtn{
+    border: none;
+    background-color: rgb(238, 17, 17);
+    color: whitesmoke;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px black;
+    transition: all 1.6s ease;
+    text-decoration: none;
+    
+}
+.navbtn:hover{
+    background-color: yellowgreen;
+    color: black;
+    padding: 11px 36px 11px 36px;
+}

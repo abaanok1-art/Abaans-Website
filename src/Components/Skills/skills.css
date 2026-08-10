@@ -1,0 +1,49 @@
+#skills {
+  background: url("../../assets/skillsbgd.jpg") center/cover no-repeat;
+  min-height: 90.5vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  box-sizing: border-box;
+}
+.skills-card {
+  background: rgba(0, 0, 0, 0.75);
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  width: 90%;
+  max-width: 500px;
+}
+
+.skills-card h2 {
+  color: yellowgreen;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  color: white;
+  font-size: 22px;
+}
+
+.skills-list li {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border-radius: 6px;
+}
+.skillli{
+  transition: all 1.0s ease-in-out;
+}
+.skillli:hover{
+    color: rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+    background-color: red;
+    font-weight: bolder;
+}
