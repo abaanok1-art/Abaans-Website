@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://abaanok1-art.github.io/Abaans-Website/sitemap.xml
