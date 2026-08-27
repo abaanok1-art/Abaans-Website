@@ -34,3 +34,20 @@
 @keyframes spinner{
     100%{transform: rotate(360deg);}
 }
+@media (max-width: 768px) {
+  .title {
+    font-size: clamp(36px, 10vw, 60px);
+  }
+
+  .intro {
+    font-size: clamp(0.95rem, 3.5vw, 1.1rem);
+    padding: 0 15px;
+    width: 100%;
+  }
+
+  .spinner {
+    width: 30px;
+    height: 30px;
+    margin-top: 25px;
+  }
+}

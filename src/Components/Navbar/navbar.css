@@ -27,3 +27,26 @@
     color: black;
     padding: 11px 36px 11px 36px;
 }
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 15px 10px;
+    gap: 15px;
+  }
+
+  .list {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 0;
+  }
+
+  .navbtn {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  .navbtn:hover {
+    padding: 9px 18px;
+  }
+}

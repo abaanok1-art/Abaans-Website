@@ -47,3 +47,28 @@
     background-color: red;
     font-weight: bolder;
 }
+@media (max-width: 768px) {
+  #skills {
+    padding: 80px 15px 40px;
+    min-height: auto;
+  }
+
+  .skills-card {
+    width: 100%;
+    max-width: 100%;
+    padding: 25px 15px;
+  }
+
+  .skills-card h1 {
+    font-size: clamp(24px, 6vw, 28px);
+  }
+
+  .skills-list {
+    font-size: clamp(15px, 4vw, 18px);
+    gap: 8px;
+  }
+
+  .skills-list li {
+    padding: 8px 12px;
+  }
+}

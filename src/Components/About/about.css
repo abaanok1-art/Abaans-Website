@@ -52,14 +52,30 @@
 }
 @media (max-width: 768px) {
   #about {
-    padding-top: 80px;
+    padding: 80px 15px 40px;
+    min-height: auto;
+  }
+
+  .about-main {
+    flex-direction: column;
+    width: 100%;
   }
 
   .about-card {
-    padding: 25px 20px;
+    padding: 20px 15px;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .about-me {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
   }
 
   .description p {
+    font-size: clamp(14px, 4vw, 18px);
     text-align: center;
   }
 }

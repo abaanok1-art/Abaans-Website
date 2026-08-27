@@ -45,8 +45,20 @@
     transition: all 0.8s ease-in-out;
 }
 @media (max-width: 768px) {
+  #contact {
+    padding: 80px 15px 40px;
+    min-height: auto;
+  }
+
   .contactpg {
-    padding: 30px 20px;
-    max-width: 90%;
+    padding: 25px 15px;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .list2 {
+    gap: 12px;
+    font-size: clamp(15px, 4vw, 20px);
+    word-break: break-word;
   }
 }
