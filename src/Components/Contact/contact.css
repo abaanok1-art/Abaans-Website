@@ -16,6 +16,12 @@
   max-width: 500px; 
   box-sizing: border-box;
 }
+
+.contactpg h1 {
+  color: yellowgreen;
+  text-align: center;
+  margin: 0 0 24px;
+}
 .list2 {
   list-style: none;
   padding: 0;

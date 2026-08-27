@@ -1,15 +1,21 @@
 import React from "react";
 import "./about.css";
 import { SlArrowLeft, SlArrowRight } from "react-icons/sl";
+import Seo from "../../Seo";
 
 const ABOUT = () => {
   return (
     <div id="about">
+      <Seo
+        title="About"
+        description="About Abaan Mubeen — O Levels student learning full-stack web development and building real-world projects."
+        path="/about"
+      />
       <div className="aboutmain">
         <div className="about-card">
-          <h2 className="aboutme">
+          <h1 className="aboutme">
             <SlArrowLeft /> About Me! <SlArrowRight />
-          </h2>
+          </h1>
           
           <div className="description">
             <p>

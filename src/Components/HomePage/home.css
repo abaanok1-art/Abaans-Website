@@ -18,6 +18,15 @@
     color: yellowgreen;
     cursor: pointer;
 }
+
+.intro {
+    max-width: 720px;
+    margin: 16px auto 0;
+    padding: 0 20px;
+    font-size: 1.15rem;
+    line-height: 1.6;
+    color: #e8e8e8;
+}
 .spinner{
     margin-top: 40px;
     animation: spinner 0.9s linear infinite;

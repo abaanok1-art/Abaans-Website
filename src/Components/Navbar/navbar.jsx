@@ -73,7 +73,7 @@ const Navbar = () => {
     return (
         <>
             <nav className="navBar">
-                <img src={NAVLOGO} alt="" width={80} />
+                <img src={NAVLOGO} alt="Abaan Mubeen" width={80} />
                 <ul className="list">
                     <li><Link className="navbtn" to="/">Home</Link></li>
                     <li><Link className="navbtn" to="/about">About</Link></li>

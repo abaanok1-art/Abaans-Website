@@ -1,11 +1,17 @@
 import React from "react";
 import "./skills.css";
+import Seo from "../../Seo";
 
 const SKILLS = () => {
   return (
     <div id="skills">
+      <Seo
+        title="Skills"
+        description="Skills of Abaan Mubeen: HTML, CSS, JavaScript, React, Python, PHP, Java, C#, MySQL, MongoDB, Node.js, Express, Git, and more."
+        path="/skills"
+      />
       <div className="skills-card">
-        <h2>My Skills</h2>
+        <h1>My Skills</h1>
         <ul className="skills-list">
           <li className="skillli">HTML</li>
           <li  className="skillli">CSS</li>
