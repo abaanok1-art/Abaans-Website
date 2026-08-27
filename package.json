@@ -3,8 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://<your-github-username>.github.io/abaanwebsite",
-  "scripts": {
+  "homepage": "https://abaanok1-art.github.io/Abaans-Website",
+    "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
