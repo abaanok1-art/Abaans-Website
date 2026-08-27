@@ -5,11 +5,12 @@ import CONTACT from './Components/Contact/contact'
 import ABOUT from './Components/About/about'
 import SKILLS from './Components/Skills/skilld'
 import { Navigate, Route, Routes } from 'react-router-dom'
-
+import ThemeToggle from './Components/TheneToggle.jsx/ThemeToggle'
 function App() {
   return (
     <>
       <Navbar />
+      <ThemeToggle/>
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/about" element={<ABOUT />} />
@@ -20,5 +21,4 @@ function App() {
     </>
   )
 }
-
 export default App

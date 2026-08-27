@@ -75,6 +75,7 @@ const Navbar = () => {
             <nav className="navBar">
                 <img src={NAVLOGO} alt="Abaan Mubeen" width={80} />
                 <ul className="list">
+                    <li></li>
                     <li><Link className="navbtn" to="/">Home</Link></li>
                     <li><Link className="navbtn" to="/about">About</Link></li>
                     <li><Link className="navbtn" to="/skills">Skills</Link></li>
