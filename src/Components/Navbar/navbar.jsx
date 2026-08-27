@@ -78,7 +78,7 @@ const Navbar = () => {
                     <li><Link className="navbtn" to="/">Home</Link></li>
                     <li><Link className="navbtn" to="/about">About</Link></li>
                     <li><Link className="navbtn" to="/skills">Skills</Link></li>
-                    <li><Link className="navbtn" to="/experience">Experience</Link></li>
+                    {/* <li><Link className="navbtn" to="/experience">Experience</Link></li> */}
                 </ul>
                 <ul className="list">
                     <li><Link className="navbtn" to="/contact">Contact</Link></li>
