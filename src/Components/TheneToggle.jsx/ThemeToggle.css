@@ -1,7 +1,7 @@
 /* 1. Force the toggle to float top-right, taking EXACTLY ZERO page space */
 .theme__toggle {
   position: fixed !important;
-  top: 92px !important;
+  top: 105px !important;
   right: 20px !important;
   z-index: 999999 !important;
   width: 60px !important;
@@ -58,7 +58,7 @@ body.dark-mode div[class*="contact"],
 body.dark-mode div[class*="about"],
 body.dark-mode div[class*="skill"] {
   background-color: #090d16 !important;
-  min-height: 100vh !important;
+  min-height: 1vh !important;
 }
 
 body.dark-mode .navbar {
